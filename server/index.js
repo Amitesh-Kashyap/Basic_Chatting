@@ -1,7 +1,9 @@
 // const io = require(`socket.io`)(9001)
 
-import { createServer } from "http";
-import { Server } from "socket.io";
+// import { createServer } from "http";
+// import { Server } from "socket.io";
+const { createServer } = require('http');
+const { Server } = require('socket.io');
 
 
 const httpServer = createServer();
