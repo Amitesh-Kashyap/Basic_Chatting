@@ -1,4 +1,4 @@
-const socket = io('http://172.20.0.96:9001');
+const socket = io('http://basicchatting-production.up.railway.app');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
