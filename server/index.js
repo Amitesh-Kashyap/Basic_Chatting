@@ -37,7 +37,7 @@ io.on('connection' , (socket)=>{
     
 })
 
-const PORT = 9001;
+const PORT = process.env.PORT || 9001;
 httpServer.listen(PORT , ()=>{
     console.log(`Server is running on port ${PORT}`);
 })
