@@ -1,4 +1,4 @@
-const socket = io('https://basicchatting-production.up.railway.app');
+const socket = io('https://willconversetogether.onrender.com');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
